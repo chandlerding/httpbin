@@ -1278,7 +1278,7 @@ def drip():
         generate_bytes(),
         headers={
             "Content-Type": "application/octet-stream",
-            "Content-Length": str(numbytes),
+           // "Content-Length": str(numbytes),
         },
     )
 
